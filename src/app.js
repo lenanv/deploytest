@@ -21,7 +21,11 @@ app.use(function (err, req, res, next) {
     })
 });
 
+<<<<<<< HEAD
 const port = (process.env.PORT||3000);
+=======
+const port = (process.env.PORT || 3000);
+>>>>>>> f15e632b2790a10631edbfd9d97eab4d39952540
 server = http.Server(app);
 server.listen(port, function () {
     console.log('server listening on port ' + port);
